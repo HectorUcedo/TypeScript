@@ -1,14 +1,23 @@
 
-let msg = 'Hola Mundo';
+// Función anónima autoinvocada
+(() => {
 
-//msg = 123; //Type 'number' is not assignable to type 'string'
+    var a = 10;
 
-const hero = {
-    name: 'Ironman',
-    age: 45
-}
+    console.log( a );
 
-hero.age = 50
+})()
 
-console.log(hero);
-console.log(hero.age);
+
+//let b: string;
+
+
+// b = 3.1415;
+// b = {}; // b podría ser un objeto
+// b = []; // b podría ser un arreglo
+// b = true; // b podría ser un boolean
+
+// function sayHello( msg: string ){
+//     console.log( msg + ' ' + 'Héctor' );
+// }
+

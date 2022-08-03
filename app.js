@@ -1,9 +1,14 @@
-var msg = 'Hola Mundo';
-//msg = 123; //Type 'number' is not assignable to type 'string'
-var hero = {
-    name: 'Ironman',
-    age: 45
-};
-hero.age = 50;
-console.log(hero);
-console.log(hero.age);
+"use strict";
+// Función anónima autoinvocada
+(() => {
+    var a = 10;
+    console.log(a);
+})();
+//let b: string;
+// b = 3.1415;
+// b = {}; // b podría ser un objeto
+// b = []; // b podría ser un arreglo
+// b = true; // b podría ser un boolean
+// function sayHello( msg: string ){
+//     console.log( msg + ' ' + 'Héctor' );
+// }
