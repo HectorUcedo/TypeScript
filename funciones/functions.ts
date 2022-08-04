@@ -4,6 +4,7 @@
     const hero: string = 'Flash';
 
                          // Tipo de dato de retorno
+    //function returnName():string {
     function returnName():string {
         return hero;
     }
