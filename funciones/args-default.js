@@ -9,6 +9,7 @@
             return `${firstName} ${lastName || 'no lastName'}`;
         }
     };
-    const name = fullName('Tony', 'Stark', true);
+    //const name = fullName('Tony', 'Stark'); // -> Minúscula
+    const name = fullName('Tony', 'Stark', true); // -> Capitalizado
     console.log(name);
 })();
