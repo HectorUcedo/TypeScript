@@ -11,5 +11,5 @@
     // Utilizar siempre los valores parametrizados
     let currentAudio = AudioLevel.max; //let currentAudio: AudioLevel
     console.log(currentAudio);
-    //console.log( AudioLevel);
+    console.log(AudioLevel);
 })();
