@@ -1,5 +1,8 @@
 "use strict";
 (() => {
+    /**
+     *  VOID significa vacío
+     */
     //function callBatman() {
     function callBatman() {
         //return 1; //Type 'number' is not assignable to type 'void'
