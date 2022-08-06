@@ -1,16 +1,10 @@
 "use strict";
 (() => {
-    /*
-    || El never es Never
-    || A function returning 'never' cannot have a reachable end point
-    */
     const error = (message) => {
-        //if ( false ){
         throw new Error(message);
-        //  }
         return 1;
     };
-    // Luego de llamar a esta función va a reventar
     error('Auxilio!');
-    console.log('Hola mundo'); // Ya no se va a ejecutar
+    console.log('Hola mundo');
 })();
+//# sourceMappingURL=never.js.map

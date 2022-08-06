@@ -1,6 +1,5 @@
 "use strict";
 (() => {
-    //A required parameter cannot follow an optional parameter.
     const fullName = (firstName, lastName, upper = false) => {
         if (upper) {
             return `${firstName} ${lastName || 'no lastName'}`.toUpperCase();
@@ -9,7 +8,7 @@
             return `${firstName} ${lastName || 'no lastName'}`;
         }
     };
-    //const name = fullName('Tony', 'Stark'); // -> Minúscula
-    const name = fullName('Tony', 'Stark', true); // -> Capitalizado
+    const name = fullName('Tony', 'Stark', true);
     console.log(name);
 })();
+//# sourceMappingURL=args-default.js.map

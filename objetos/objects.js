@@ -1,8 +1,5 @@
 "use strict";
 (() => {
-    /**
-     * No confundir con un objeto de JS
-     */
     let flash = {
         name: 'Barry Allen',
         age: 24,
@@ -13,4 +10,6 @@
         age: 24,
         powers: ['Super velocidad', 'Viajar en el tiempo']
     };
+    console.log(flash);
 })();
+//# sourceMappingURL=objects.js.map

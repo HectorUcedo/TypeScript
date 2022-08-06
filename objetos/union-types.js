@@ -6,9 +6,9 @@
     myCustomVariable = {
         name: 'Bruce',
         age: 43,
-        //powers: ['Ninguno'] //Type 'string' is not assignable to type 'number'
-        powers: [1] //Type 'string' is not assignable to type 'number'
+        powers: [1]
     };
     console.log(typeof myCustomVariable);
     console.log(myCustomVariable);
 })();
+//# sourceMappingURL=union-types.js.map
