@@ -16,6 +16,8 @@
     // call back function
     //numbers.forEach( v => console.log( v.toUpperCase() ) ); // error
     villians.forEach( v => console.log( v.toUpperCase() ) ); //(method) Array<string>.forEach(callbackfn: (value: string, index: number, array: string[]) => void, thisArg?: any): void
+    
+    numbers.forEach( v => console.log( v.toUpperCase() ) ); 
 
 
 })()

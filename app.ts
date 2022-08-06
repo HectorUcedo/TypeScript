@@ -1,3 +1,7 @@
+(()=>{
+
+
+
 
 type Car = {
   carroceria: string;
@@ -80,3 +84,6 @@ let mystique: Charles | Apocalipsis;
 
 mystique = charles;
 mystique = apocalipsis;
+
+
+})()
