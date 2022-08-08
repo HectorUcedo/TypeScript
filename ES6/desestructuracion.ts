@@ -35,6 +35,6 @@
 
     //const ironman = avengerArr[1];
     const [ capitan, ironman, seriaUnNumero] = avengerArr;
-    console.log( {ironman, capitan, seriaUnNumero} );
+    //console.log( {ironman, capitan, seriaUnNumero} );
 
 })()
