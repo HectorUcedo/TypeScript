@@ -27,6 +27,14 @@
         // console.log( ironman, resto.activo );
     }
 
-    printAvenger( avengers );
+    //printAvenger( avengers );
+
+    //const avengerArr: string[] = ['Cap. America', 'Iron Man', 'Hulk'];
+    const avengerArr: [string, boolean, number] = ['Cap. America', true, 150.15];
+    //const avengerArr: any[] = ['Cap. America', true, 150.15]; //Evitar usar ANY
+
+    //const ironman = avengerArr[1];
+    const [ capitan, ironman, seriaUnNumero] = avengerArr;
+    console.log( {ironman, capitan, seriaUnNumero} );
 
 })()
